@@ -21,7 +21,7 @@
 | 🔍 | 1.2a | Cortex Search Advanced | [1.2a_Cortex_Search_Advanced.md](./1.2a_Cortex_Search_Advanced.md) |
 | 📊 | 1.3 | Cortex Analyst & Semantic Views | [1.3_Cortex_Analyst.md](./1.3_Cortex_Analyst.md) |
 | 🤖 | 1.4 | Cortex Agents | [1.4_Cortex_Agents.md](./1.4_Cortex_Agents.md) |
-| 💬 | 1.5 | Snowflake Intelligence / CoWork | [1.5_Snowflake_Intelligence.md](./1.5_Snowflake_Intelligence.md) |
+| 💬 | 1.5 | CoWork (formerly Snowflake Intelligence) | [1.5_Snowflake_Intelligence.md](./1.5_Snowflake_Intelligence.md) |
 | 💻 | 1.6 | Cortex Code | [1.6_Cortex_Code.md](./1.6_Cortex_Code.md) |
 | 🧩 | 1.6a | CoCo, CoWork, Skills & Plugins | [1.6a_CoCo_CoWork_Skills_Plugins.md](./1.6a_CoCo_CoWork_Skills_Plugins.md) |
 | 🌍 | 1.7 | Cross-Region Inference | [1.7_Cross_Region_Inference.md](./1.7_Cross_Region_Inference.md) |

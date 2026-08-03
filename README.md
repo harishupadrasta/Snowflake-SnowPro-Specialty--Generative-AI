@@ -159,6 +159,15 @@ graph LR
 
 ---
 
+## 📖 Quick Reference
+
+| | Resource | Description |
+|---|----------|-------------|
+| 📖 | [**GLOSSARY.md**](./GLOSSARY.md) | All keywords & terms defined in one place |
+| 📋 | [**CONTRIBUTING.md**](./CONTRIBUTING.md) | How to contribute to this guide |
+
+---
+
 ## 🔗 Official Documentation
 
 All content references:  
