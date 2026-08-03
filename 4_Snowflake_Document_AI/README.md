@@ -46,7 +46,7 @@ graph LR
     end
 
     subgraph "Document AI (Snowsight UI)"
-        D["Input: Training documents<br/>Output: !PREDICT method<br/>Role: DOCUMENT_INTELLIGENCE_CREATOR<br/>Use: Repeatable extraction"]
+        D["Input: Training documents<br/>Output: ⚠️ DECOMMISSIONED March 2026<br/>Replaced by: AI_EXTRACT<br/>Use: Legacy only"]
     end
 
     subgraph "AI_EXTRACT (SQL)"
@@ -97,8 +97,8 @@ graph LR
 ├── 🏷️ Classify document type?
 │   └── ✅ AI_CLASSIFY with TO_FILE
 │
-└── 🖥️ Visual pipeline with Snowsight UI training?
-    └── ✅ Document AI pipeline (!PREDICT method)
+└── 🖥️ ~~Visual pipeline with Snowsight UI training?~~
+    └── ⚠️ DECOMMISSIONED (March 2026) — Use AI_EXTRACT instead
 ```
 
 ---

@@ -687,3 +687,10 @@ E) All of A, B, and C
 | 9 | B | 19 | B | 29 | C | 39 | B | 49 | B |
 | 10 | B | 20 | B | 30 | C | 40 | C | 50 | E |
 
+
+---
+
+<p align="center">
+  <a href="./README.md">🏠 Domain Home</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="../../README.md">📚 Main Home</a>
+</p>

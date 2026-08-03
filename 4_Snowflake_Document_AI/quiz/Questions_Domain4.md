@@ -464,3 +464,10 @@ A) Dynamic tables  B) Streams  C) Custom network policies  D) Views
 | 9 | B | 19 | B | 29 | B | 39 | B |
 | 10 | B | 20 | B | 30 | B | 40 | C |
 
+
+---
+
+<p align="center">
+  <a href="./README.md">🏠 Domain Home</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="../../README.md">📚 Main Home</a>
+</p>

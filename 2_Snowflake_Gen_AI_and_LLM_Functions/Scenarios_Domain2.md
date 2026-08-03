@@ -336,3 +336,10 @@ SELECT AI_COMPLETE('my_finetuned_model', 'Your prompt here');
 ---
 
 *Use this alongside the function reference notes for exam scenario questions.*
+
+---
+
+<p align="center">
+  <a href="./README.md">🏠 Domain Home</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="../README.md">📚 Main Home</a>
+</p>

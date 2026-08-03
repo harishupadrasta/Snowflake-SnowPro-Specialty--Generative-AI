@@ -278,3 +278,10 @@ tool_resources:
 ---
 
 *Use this guide alongside the detailed topic notes to answer scenario-based exam questions.*
+
+---
+
+<p align="center">
+  <a href="./README.md">🏠 Domain Home</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="../README.md">📚 Main Home</a>
+</p>

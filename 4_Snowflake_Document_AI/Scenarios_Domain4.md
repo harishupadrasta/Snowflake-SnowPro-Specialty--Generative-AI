@@ -25,7 +25,7 @@
 │  │   └── AI_CLASSIFY with TO_FILE                                 │
 │  │                                                                │
 │  └── Visual pipeline (Snowsight UI) with training?                │
-│      └── Document AI pipeline (!PREDICT method)                   │
+│      └── ⚠️ Document AI (!PREDICT) — DECOMMISSIONED March 2026  │
 │                                                                   │
 └─────────────────────────────────────────────────────────────────┘
 ```
@@ -144,7 +144,7 @@ ALTER TASK process_docs RESUME;
 
 ## Scenario 6: "Document AI pipeline vs AI_PARSE_DOCUMENT"
 
-| Feature | Document AI (!PREDICT) | AI_PARSE_DOCUMENT |
+| Feature | Document AI (!PREDICT) ⚠️ DECOMMISSIONED | AI_PARSE_DOCUMENT |
 |---------|----------------------|-------------------|
 | **Interface** | Snowsight visual UI | SQL function |
 | **Training** | Upload samples, train model | No training needed |
@@ -262,3 +262,10 @@ SELECT AI_PARSE_DOCUMENT(
 ---
 
 *Use this for document processing exam scenarios.*
+
+---
+
+<p align="center">
+  <a href="./README.md">🏠 Domain Home</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="../README.md">📚 Main Home</a>
+</p>

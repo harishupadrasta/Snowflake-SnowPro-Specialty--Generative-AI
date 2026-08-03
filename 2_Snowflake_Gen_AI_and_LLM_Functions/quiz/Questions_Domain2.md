@@ -696,3 +696,10 @@ D) Only if cross-region is enabled
 | 9 | B | 19 | B | 29 | B | 39 | B | 49 | B | 59 | B |
 | 10 | C | 20 | B | 30 | C | 40 | B | 50 | B | 60 | B |
 
+
+---
+
+<p align="center">
+  <a href="./README.md">🏠 Domain Home</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="../../README.md">📚 Main Home</a>
+</p>
