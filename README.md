@@ -1,4 +1,8 @@
 <p align="center">
+  <img src="assets/snowpro-genai-badge.png" alt="SnowPro Specialty: Gen AI Badge" width="400"/>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white" alt="Snowflake"/>
   <img src="https://img.shields.io/badge/Gen_AI-FF6F00?style=for-the-badge&logo=openai&logoColor=white" alt="Gen AI"/>
   <img src="https://img.shields.io/badge/Certification-4CAF50?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Certification"/>
@@ -16,8 +20,36 @@
 
 <p align="center">
   <b>Author:</b> Harish Kumar Upadrasta<br/>
-  <b>Repository:</b> <a href="https://github.com/harishupadrasta/SnowPro-GENAI">github.com/harishupadrasta/SnowPro-GENAI</a>
+  <b>Repository:</b> <a href="https://github.com/harishupadrasta/Snowflake-SnowPro-Specialty--Generative-AI">github.com/harishupadrasta/Snowflake-SnowPro-Specialty--Generative-AI</a>
 </p>
+
+---
+
+## 🧭 Why This Guide Exists
+
+This isn't just a collection of notes — it's a **structured certification bible** designed so that anyone reading it cover-to-cover can pass the SnowPro Specialty: Generative AI exam. Every section is:
+
+- **Exam-mapped** — each file ties directly to an official exam objective
+- **Scenario-driven** — real-world "when would you use X vs Y?" decision-making
+- **Gotcha-aware** — exam traps and common wrong answers are explicitly called out
+- **Self-contained** — you shouldn't need to look elsewhere; official docs are referenced for depth
+
+### 🎯 Who Is This For?
+
+| Profile | How to Use This Guide |
+|---------|----------------------|
+| **Already working with Snowflake AI** | Skim notes, focus on quiz questions and scenarios to find gaps |
+| **New to Gen AI on Snowflake** | Read sequentially from Domain 1 → 4, do quizzes at end of each |
+| **Cramming before the exam** | Read each domain's exam traps, do all 200 quiz questions, review wrong answers |
+| **Using as a reference** | Use the [Glossary](./GLOSSARY.md) + TOC to jump to specific topics |
+
+### 💡 Exam Strategy Tips
+
+1. **Domain 2 is 38% of the exam** — spend the most time here. Know every function's syntax and return type.
+2. **Read the question carefully** — many questions test "which function" or "which role" with subtle word differences.
+3. **Elimination works** — if you can eliminate 2 options, you have a 50% chance on the remaining 2.
+4. **Time management** — 115 minutes for 60 questions = ~1.9 min/question. Flag hard ones and return later.
+5. **Both namespaces are valid** — `SNOWFLAKE.CORTEX.COMPLETE()` and `AI_COMPLETE()` both appear in answers.
 
 ---
 
@@ -56,6 +88,21 @@ pie title Exam Domain Weightings
 ## 🎯 What This Covers
 
 > 💡 Every exam objective is mapped to a topic file containing SQL examples, architecture diagrams, decision matrices, and exam tips.
+
+### How Each Topic File is Structured
+
+Every topic file follows a consistent format to maximize learning:
+
+| Section | Purpose |
+|---------|---------|
+| **Key Terms box** | Defines new vocabulary as a quick-reference table |
+| **Concept explanation** | What it is, why it matters, how it works |
+| **SQL examples** | Copy-paste-ready code you can run in Snowflake |
+| **Architecture diagrams** | Mermaid diagrams showing how components connect |
+| **Exam tips** | Specific traps, gotchas, and commonly tested points |
+| **Navigation footer** | Previous / Home / Next for sequential reading |
+
+### Namespace Reminder
 
 Both function namespaces appear on the exam:
 
@@ -168,10 +215,30 @@ graph LR
 
 ---
 
-## 🔗 Official Documentation
+## 🔗 Official Resources
 
-All content references:  
-🌐 https://docs.snowflake.com/en/guides-overview-ai-features
+| Resource | Link |
+|----------|------|
+| 🌐 Snowflake AI Features Overview | https://docs.snowflake.com/en/guides-overview-ai-features |
+| 📄 Exam Registration | https://www.snowflake.com/certifications/ |
+| 📖 Cortex AI Documentation | https://docs.snowflake.com/en/user-guide/snowflake-cortex |
+| 🧪 Free Trial Account | https://signup.snowflake.com/ |
+
+### 📝 Community Study Resources
+
+| Part | Topic | Link |
+|------|-------|------|
+| 1 | Exam Info & Getting Started | [Medium — Part 1](https://medium.com/snowflake/%EF%B8%8F-snowpro-specialty-gen-ai-certification-tutorial-part-1-exam-info-and-starting-with-snowflake-3d01c381d8e9) |
+| 2 | Snowflake Cortex (Functions, Agents) | [Medium — Part 2](https://medium.com/snowflake/%EF%B8%8F-snowpro-specialty-gen-ai-certification-tutorial-part-2-snowflake-cortex-4c9792d5379b) |
+| 3 | CoWork (formerly Copilot) | [Medium — Part 3](https://medium.com/snowflake/%EF%B8%8F-snowpro-specialty-gen-ai-certification-tutorial-part-3-snowflake-copilot-607413ef22d3) |
+| 4 | Security & Governance | [Medium — Part 4](https://medium.com/snowflake/%EF%B8%8F-snowpro-specialty-gen-ai-certification-tutorial-part-4-security-e4ce0bf70a2c) |
+| 5 | Document AI | [Medium — Part 5](https://medium.com/snowflake/%EF%B8%8F-snowpro-specialty-gen-ai-certification-tutorial-part-5-document-ai-12d7e9de9127) |
+
+---
+
+## 🤝 Contributing
+
+Found a gap? Have a better explanation? See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
 
 ---
 

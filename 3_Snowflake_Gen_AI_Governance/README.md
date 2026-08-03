@@ -12,6 +12,52 @@
 
 ---
 
+## 🎓 What You Need to Know
+
+This domain tests the **enterprise governance mindset**. Think like a security admin or platform team lead:
+
+1. **Who can access what?** — RBAC roles, database roles, privilege hierarchy
+2. **How do you restrict models?** — Allowlist, Cortex Guard, input/output filtering
+3. **How much does it cost?** — Usage views, credit tracking, per-token vs compute billing
+4. **How do you monitor quality?** — TruLens, RAG Triad, Cortex Analyst evaluations
+
+### 📋 Prerequisites
+
+- Understanding of Snowflake RBAC (roles, grants, database roles)
+- Familiarity with ACCOUNT_USAGE views
+- Concepts from Domain 2 (what functions exist and how they're called)
+
+### 🧠 Study Approach
+
+| Step | What to Do | Key Concept |
+|------|-----------|-------------|
+| 1 | Read 3.1 + 3.1a | Model restrictions + Cortex Guard |
+| 2 | Read 3.2 | The privilege hierarchy (3 layers: account privilege + database role + object grants) |
+| 3 | Read 3.3 | Usage tracking views and credit formulas |
+| 4 | Read 3.4 | TruLens, RAG Triad, LLM-as-judge evaluations |
+| 5 | Scenarios + Quiz | Apply governance thinking to real situations |
+
+### 💡 Governance Mental Model
+
+```mermaid
+graph LR
+    subgraph "Layer 1: Account"
+        P["USE AI FUNCTIONS<br/>(on PUBLIC by default)"]
+    end
+    subgraph "Layer 2: Database Role"
+        R["CORTEX_USER<br/>CORTEX_AGENT_USER<br/>COPILOT_USER..."]
+    end
+    subgraph "Layer 3: Object"
+        O["USAGE on Semantic View<br/>USAGE on Search Service<br/>USAGE on Agent"]
+    end
+
+    P --> R --> O
+```
+
+> **Exam Key:** Users need ALL THREE layers to access a specific AI feature.
+
+---
+
 ## 📚 Topics
 
 | | # | Topic | File |
@@ -64,3 +110,11 @@
 
 > ❌ **Trap:** AI_COUNT_TOKENS has token charges  
 > ✅ **Truth:** Only compute cost — no token billing
+
+---
+
+<p align="center">
+  <a href="../2_Snowflake_Gen_AI_and_LLM_Functions/README.md">← Domain 2</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="../README.md">🏠 Main Home</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="../4_Snowflake_Document_AI/README.md">Domain 4 →</a>
+</p>

@@ -12,6 +12,37 @@
 
 ---
 
+## 🎓 What You Need to Know
+
+This domain is about **breadth, not depth**. The exam tests whether you can:
+
+1. **Identify the right product** for a given use case (Search vs Analyst vs Agents vs CoWork)
+2. **Understand architecture** — how components connect (e.g., Agents call Search + Analyst as tools)
+3. **Know configuration** — key parameters like `CORTEX_ENABLED_CROSS_REGION` and `AUTO_SUSPEND`
+4. **Distinguish deployment options** — serverless Cortex functions vs custom SPCS containers
+
+### 📋 Prerequisites
+
+Before studying this domain, you should understand:
+- Basic Snowflake concepts (databases, schemas, roles, warehouses)
+- What an LLM is and what "tokens" mean
+- Basic SQL syntax
+
+### 🧠 Study Approach
+
+```mermaid
+graph TD
+    A["Start: Read 1.1<br/>Cortex AI Overview"] --> B["Understand the Products:<br/>1.2 Search → 1.3 Analyst → 1.4 Agents"]
+    B --> C["User Interfaces:<br/>1.5 CoWork → 1.6 Cortex Code"]
+    C --> D["Infrastructure:<br/>1.7 Cross-Region → 1.8 SPCS → 1.9 MCP"]
+    D --> E["Test Yourself:<br/>Scenarios → 50 Quiz Questions"]
+
+    style A fill:#E3F2FD
+    style E fill:#E8F5E9
+```
+
+---
+
 ## 📚 Topics
 
 | | # | Topic | File |
@@ -75,3 +106,43 @@
 
 > ❌ **Trap:** SEARCH_PREVIEW is for production queries  
 > ✅ **Truth:** Testing only — 300KB limit, higher latency, no batch
+
+---
+
+## 📊 How Products Relate
+
+```mermaid
+graph TB
+    subgraph "User-Facing"
+        CW["💬 CoWork<br/>(No-code chat)"]
+        CC["💻 Cortex Code<br/>(Dev assistant)"]
+    end
+
+    subgraph "AI Services"
+        AG["🤖 Cortex Agents<br/>(Orchestrator)"]
+        CS["🔍 Cortex Search<br/>(RAG retrieval)"]
+        CA["📊 Cortex Analyst<br/>(Text-to-SQL)"]
+    end
+
+    subgraph "Infrastructure"
+        CRI["🌍 Cross-Region<br/>Inference"]
+        SPCS["🐳 SPCS<br/>(Custom Models)"]
+        MCP["🔌 MCP<br/>(Connectors)"]
+    end
+
+    CW --> AG
+    CC --> AG
+    AG --> CS
+    AG --> CA
+    AG --> MCP
+    CS --> CRI
+    CA --> CRI
+    SPCS --> CRI
+```
+
+---
+
+<p align="center">
+  <a href="../README.md">🏠 Main Home</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="../2_Snowflake_Gen_AI_and_LLM_Functions/README.md">Next: Domain 2 →</a>
+</p>
