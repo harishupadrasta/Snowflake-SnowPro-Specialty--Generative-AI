@@ -1,0 +1,42 @@
+# System files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# Snowflake
+.snowflake/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Node (if using any tooling)
+node_modules/
+package-lock.json
+
+# Python (if using any scripts)
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+
+# OS generated
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Logs
+*.log
+
+# Build / temp
+dist/
+build/
+tmp/
+*.tmp
